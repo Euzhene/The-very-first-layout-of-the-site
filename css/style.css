@@ -128,14 +128,16 @@ button {
     cursor: pointer;
 }
 
+/* Секция с планом интенсива */
 .plan {
     position: relative;
-    height: 604px;
+    min-height: 604px;
     background-color: #efefef;
     padding: 85px 0 75px 0;
 }
 
-.plan_header {
+.plan .plan_header,
+.finish .finish_header {
     text-align: center;
     font-family: Roboto;
     font-size: 30px;
@@ -152,7 +154,8 @@ button {
     flex-wrap: wrap-reverse;
 }
 
-.plan .plan_dash {
+.plan .plan_dash,
+.finish .finish_dash {
     display: block;
     margin: 0 auto;
     margin-top: 18px;
@@ -174,6 +177,7 @@ button {
     width: 342px;
     text-align: center;
 }
+
 .plan .plan_decs {
     font-family: Roboto;
     font-size: 15px;
@@ -181,6 +185,95 @@ button {
     font-weight: 300;
     color: #4a4a4a;
 }
-.plan_wrapper .plan_item .plan_img{
+
+.plan_wrapper .plan_item .plan_img {
     width: 100%;
+}
+
+/* Секция с оптимизацией и ее применением */
+.optimization {
+    /* position: absolute; */
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+}
+
+.opt_title {
+    font-family: Roboto;
+    font-size: 30px;
+    /* line-height: 12px; */
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #299cbd;
+    margin-left: 391px;
+}
+
+.opt_text {
+    font-family: Roboto;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #4a4a4a;
+    margin-left: 391px;
+    margin-top: 25px;
+}
+
+.opt_text span {
+    font-weight: 700;
+}
+
+.opt_img {
+    position: absolute;
+    width: 868px;
+    left: -240px;
+    top: -54px;
+    z-index: -1;
+}
+
+/* Секция финиша */
+.finish {
+    min-height: 447px;
+    background: url('../img/sect3/sect3_back.jpg') center center/cover no-repeat;
+    padding-top: 86px;
+    padding-bottom: 79px;
+}
+
+.finish .finish_header {
+    color: #efefef;
+}
+
+.finish .finish_wrapper {
+    position: relative;
+    margin: 0 15px;
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+
+.finish .finish_wrapper .finish_item {
+    width: 204px;
+}
+
+.finish .finish_wrapper .finish_item .finish_desc {
+    font-family: Roboto;
+    font-size: 17px;
+    /* line-height: 20px; */
+    font-weight: 300;
+    color: #efefef;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.finish .finish_wrapper .finish_item .finish_circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.finish .finish_wrapper .finish_item .finish_circle {
+    width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+    border-radius: 50%;
 }
