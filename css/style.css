@@ -88,7 +88,7 @@
     color: #f9bf3b;
 }
 
-button {
+.promo_btn {
     display: block;
     margin: 73px auto;
     width: 313px;
@@ -276,4 +276,127 @@ button {
     height: 115px;
     background-color: #b4e2ff;
     border-radius: 50%;
+}
+
+/* Секция с подарками */
+.gifts {
+    min-height: 628px;
+    background-color: #efefef;
+    padding: 86px 0 83px 0;
+}
+
+.gift_bow {
+    display: block;
+    margin: 0 auto;
+    width: 111px;
+    height: 60px;
+    padding-left: 20px;
+}
+
+.gift_box {
+    display: block;
+    margin: 0 auto;
+    width: 154px;
+    height: 113px;
+}
+
+.gift_desc {
+    font-family: Roboto;
+    font-size: 30px;
+    line-height: 43px;
+    font-weight: 400;
+    color: #252525;
+    margin-top: 42px;
+    text-align: center;
+}
+
+.gift_btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 48px;
+    width: 313px;
+    height: 72px;
+    background-image: linear-gradient(0.0deg, #2798b9 0%, #3ab6da 100%);
+    border: 4px solid rgba(0, 0, 0, 0.22);
+    box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.17);
+    cursor: pointer;
+    font-family: 'Roboto Condensed';
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+}
+
+/* Секция с инфой о первом вебинаре */
+.meeting {
+    min-height: 515px;
+    padding: 89px 0 64px 0;
+}
+
+.meet_img_laptop {
+    display: block;
+    margin: 0 auto;
+    width: 342px;
+    height: 201px;
+}
+
+.meet_img_screen {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10px;
+}
+
+.meet_header {
+    margin-top: 37px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #252525;
+    text-align: center;
+    line-height: 30px;
+}
+
+.meet_date {
+    margin-top: 30px;
+    font-family: Roboto;
+    font-size: 36px;
+    line-height: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #299cbd;
+    text-align: center;
+}
+
+.meet_desc {
+    font-family: Roboto;
+    font-size: 23px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #4a4a4a;
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* Footer */
+footer {
+    height: 166px;
+    background-color: #1a1a1a;
+    padding: 61px 0 69px 0;
+}
+
+.feedback {
+    text-align: center;
+}
+
+.feedback a {
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 300;
+    text-decoration: underline;
+    color: #888888;
 }
