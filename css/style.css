@@ -4,10 +4,15 @@
     padding: 0;
 }
 
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
 .promo {
     position: relative;
     height: 800px;
     background: url('../img/header/back_header.jpg') center center/cover no-repeat;
+    /* padding: 39px 0 62px 0; */
 }
 
 .invis {
@@ -35,9 +40,9 @@
 
 .logo_text {
     text-align: center;
-    font-family: Roboto;
     font-size: 15px;
     font-weight: 500;
+    line-height: 24px;
     text-transform: uppercase;
     color: #ffffff;
     margin-top: 14px;
@@ -45,9 +50,9 @@
 
 .yellow_text {
     text-align: center;
-    font-family: "Roboto - Black";
     font-size: 41px;
     font-weight: 900;
+    line-height: 24px;
     text-transform: uppercase;
     color: #f9bf3b;
 }
@@ -64,7 +69,6 @@
 
 .simple .big_title {
     text-align: center;
-    font-family: Roboto;
     font-size: 80px;
     font-weight: 900;
     text-transform: uppercase;
@@ -75,7 +79,6 @@
 .info {
     margin-top: 23px;
     text-align: center;
-    font-family: Roboto;
     font-size: 21px;
     line-height: 28px;
     font-weight: 300;
@@ -97,7 +100,6 @@
     border: 4px solid rgba(0, 0, 0, 0.22);
     box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.17);
     cursor: pointer;
-    font-family: 'Roboto Condensed';
     font-size: 21px;
     line-height: 24px;
     font-weight: 400;
@@ -112,7 +114,6 @@
 
 .more .more_text {
     text-align: center;
-    font-family: Roboto;
     font-size: 15px;
     font-weight: 100;
     text-transform: uppercase;
@@ -139,7 +140,6 @@
 .plan .plan_header,
 .finish .finish_header {
     text-align: center;
-    font-family: Roboto;
     font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;
@@ -167,7 +167,6 @@
 .plan .subheader_text {
     margin-top: 17px;
     text-align: center;
-    font-family: Roboto;
     font-size: 23px;
     font-weight: 400;
     color: #4a4a4a;
@@ -179,7 +178,6 @@
 }
 
 .plan .plan_decs {
-    font-family: Roboto;
     font-size: 15px;
     line-height: 21px;
     font-weight: 300;
@@ -198,7 +196,6 @@
 }
 
 .opt_title {
-    font-family: Roboto;
     font-size: 30px;
     /* line-height: 12px; */
     font-weight: 900;
@@ -208,7 +205,6 @@
 }
 
 .opt_text {
-    font-family: Roboto;
     font-size: 17px;
     line-height: 27px;
     font-weight: 300;
@@ -255,7 +251,6 @@
 }
 
 .finish .finish_wrapper .finish_item .finish_desc {
-    font-family: Roboto;
     font-size: 17px;
     /* line-height: 20px; */
     font-weight: 300;
@@ -301,7 +296,6 @@
 }
 
 .gift_desc {
-    font-family: Roboto;
     font-size: 30px;
     line-height: 43px;
     font-weight: 400;
@@ -320,7 +314,6 @@
     border: 4px solid rgba(0, 0, 0, 0.22);
     box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.17);
     cursor: pointer;
-    font-family: 'Roboto Condensed';
     font-size: 21px;
     line-height: 24px;
     font-weight: 400;
@@ -351,7 +344,6 @@
 
 .meet_header {
     margin-top: 37px;
-    font-family: Roboto;
     font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;
@@ -362,7 +354,6 @@
 
 .meet_date {
     margin-top: 30px;
-    font-family: Roboto;
     font-size: 36px;
     line-height: 30px;
     font-weight: 900;
@@ -372,7 +363,6 @@
 }
 
 .meet_desc {
-    font-family: Roboto;
     font-size: 23px;
     line-height: 23px;
     font-weight: 400;
@@ -393,7 +383,6 @@ footer {
 }
 
 .feedback a {
-    font-family: Roboto;
     font-size: 15px;
     line-height: 21px;
     font-weight: 300;
